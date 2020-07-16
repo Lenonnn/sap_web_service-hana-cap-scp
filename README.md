@@ -7,7 +7,7 @@ Curso disponível no site [openSAP!](https://open.sap.com/courses/cp7) :bowtie:
 > 2-bookshop-cap_NodeJS
 
 
-:neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:
+:neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:  :neckbeard:
 
 > Esse curso tem o objetivo de aprimorar e ensinar como contruir um web service utilizando node.js e o modelo de ´rogramação em nuvem da SAP  
 
