@@ -1,0 +1,34 @@
+### Mostra Livros
+GET http://localhost:4004/browse/Books?
+# &$select=title,author
+# &$expand=currency
+# &sap-language=de
+
+
+### Mostra Service $metadata document
+GET http://localhost:4004/browse/$metadata
+
+### Mostra livros e expande autores
+GET http://localhost:4004/browse/Books?$expand=author
+
+
+### Mostra e expande Authors
+GET http://localhost:4004/admin/Authors?
+# &$select=name,dateOfBirth,placeOfBirth
+# &$expand=books($select=title;$expand=currency)
+# &$filter=ID eq 101
+# &sap-language=de
+
+
+
+### Tenta inserir/postar um livro
+POST http://localhost:4004/browse/Books
+Content-Type: application/json
+
+{ 
+    "title": "Anna Karenina",
+    "stock": 10
+}
+
+### Vai tentar buscar os pedidos
+GET http://localhost:4004/browse/Orders

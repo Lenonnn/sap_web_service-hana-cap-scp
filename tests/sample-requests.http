@@ -1,0 +1,11 @@
+### Envia pedido
+# POST http://localhost:4004/browse/Orders
+POST  http://127.0.0.1:4004/browse/Orders
+Content-Type: application/json
+
+{ "OrderNo": "2019-09...", "Items": [
+    {"book_ID":201, "amount":5 }
+]}
+
+### Confere estoque atualizado
+GET http://localhost:4004/admin/Books(201)

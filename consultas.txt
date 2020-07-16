@@ -1,0 +1,9 @@
+Link = https://3f074cb9trial-workspaces-ws-x5ljp-app1.us10.trial.applicationstudio.cloud.sap
+1° endpoint => /admin/Books?$skip=1&$top=2 (endpoint vai pular um e consultar a partir do segundo / podemos pular 50 e voltar a partir do item 52)
+2° endpoint => /admin/Books?$count=true ( Vai exibir "@data.count": 5 "quantidade de livros encontrados")
+3° endpoint => /admin/Books?$count=true&$orderby=title ( Vai exibir "@data.count": 5 "quantidade de livros encontrados e ordenar pelo título")
+4° endpoint => admin/Authors/105 (busca autor pela ID)
+
+
+
+

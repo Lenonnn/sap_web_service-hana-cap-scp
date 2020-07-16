@@ -1,0 +1,9 @@
+---
+applications:
+- name: 2-bookshop-db
+  path: .
+  no-route: true
+  health-check-type: process
+  memory: 128M
+  services:
+  - 2-bookshop-db-hdi-container
