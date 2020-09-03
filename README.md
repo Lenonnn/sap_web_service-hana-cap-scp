@@ -2,6 +2,8 @@
 
 Curso disponível no site [openSAP!](https://open.sap.com/courses/cp7) :bowtie:
 
+Existe um tutorial no site [CAP Cloud](https://cap.cloud.sap/docs/get-started/hello-world) com alguns exemplos.
+
 **Este arquivo possuí 1 pasta/pcacote, com códigos desenvolvidos durante o curso**
 
 > 2-bookshop-cap_NodeJS
